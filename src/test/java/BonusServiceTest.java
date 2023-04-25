@@ -52,7 +52,7 @@ public class BonusServiceTest {
     }
 
     @Test
-    void houldCalculateForUnRegisteredAndUnLimit() {
+    void shouldCalculateForUnRegisteredAndFalse() {
         BonusService service = new BonusService();
 
         //подготавливаем данные:
